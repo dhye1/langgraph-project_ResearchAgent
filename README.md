@@ -4,7 +4,7 @@
 
 
 
-### 🚀 Quickstart
+###  Quickstart
 
 1. Clone the repository and activate a virtual environment:
 ```bash
