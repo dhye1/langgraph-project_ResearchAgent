@@ -46,15 +46,15 @@ Ask a question in the `messages` input field and click `Submit`.
 
 #### General Settings
 
-- **Max Structured Output Retries** (default: 3): Maximum number of retries for structured output calls from models when parsing fails
-- **Allow Clarification** (default: true): Whether to allow the researcher to ask clarifying questions before starting research
-- **Max Concurrent Research Units** (default: 5): Maximum number of research units to run concurrently using sub-agents. Higher values enable faster research but may hit rate limits
+- **Max Structured Output Retries** (default: 3)
+- **Allow Clarification** (default: true)
+- **Max Concurrent Research Units** (default: 5)
 
 #### Research Configuration
 
-- **Search API** (default: Tavily): Choose from Tavily (works with all models), OpenAI Native Web Search, Anthropic Native Web Search, or None
-- **Max Researcher Iterations** (default: 3): Number of times the Research Supervisor will reflect on research and ask follow-up questions
-- **Max React Tool Calls** (default: 5): Maximum number of tool calling iterations in a single researcher step
+- **Search API** (default: Tavily)
+- **Max Researcher Iterations** (default: 3)
+- **Max React Tool Calls** (default: 5)
 
 #### Models
 
@@ -65,22 +65,8 @@ Open Deep Research uses multiple specialized models for different research tasks
 - **Compression Model** (default: `openai:gpt-4.1-mini`): Compresses research findings from sub-agents
 - **Final Report Model** (default: `openai:gpt-4.1`): Writes the final comprehensive report
 
-All models are configured using [init_chat_model() API](https://python.langchain.com/docs/how_to/chat_models_universal_init/) which supports providers like OpenAI, Anthropic, Google Vertex AI, and others.
 
-**Important Model Requirements:**
 
-1. **Structured Outputs**: All models must support structured outputs. Check support [here](https://python.langchain.com/docs/integrations/chat/).
-
-2. **Search API Compatibility**: Research and Compression models must support your selected search API:
-   - Anthropic search requires Anthropic models with web search capability
-   - OpenAI search requires OpenAI models with web search capability  
-   - Tavily works with all models
-
-3. **Tool Calling**: All models must support tool calling functionality
-
-4. **Special Configurations**:
-   - For OpenRouter: Follow [this guide](https://github.com/langchain-ai/open_deep_research/issues/75#issuecomment-2811472408)
-   - For local models via Ollama: See [setup instructions](https://github.com/langchain-ai/open_deep_research/issues/65#issuecomment-2743586318)
 
 #### Example MCP (Model Context Protocol) Servers
 
