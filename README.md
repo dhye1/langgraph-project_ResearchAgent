@@ -68,10 +68,6 @@ Open Deep Research uses multiple specialized models for different research tasks
 
 
 
-#### Example MCP (Model Context Protocol) Servers
-
-Open Deep Research supports MCP servers to extend research capabilities. 
-
 #### Local MCP Servers
 
 **Filesystem MCP Server** provides secure file system operations with robust access control:
