@@ -1,4 +1,4 @@
-222# Open Deep Research
+# Open Deep Research
 
 <img width="1388" height="298" alt="full_diagram" src="https://github.com/user-attachments/assets/12a2371b-8be2-4219-9b48-90503eb43c69" />
 
