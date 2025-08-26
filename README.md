@@ -33,9 +33,9 @@ uvx --refresh --from "langgraph-cli[inmem]" --with-editable . --python 3.11 lang
 
 Use this to open the Studio UI:
 ```
-- 🚀 API: http://127.0.0.1:2024
-- 🎨 Studio UI: https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024
-- 📚 API Docs: http://127.0.0.1:2024/docs
+-  API: http://127.0.0.1:2024
+-  Studio UI: https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024
+-  API Docs: http://127.0.0.1:2024/docs
 ```
 <img width="817" height="666" alt="Screenshot 2025-07-13 at 11 21 12 PM" src="https://github.com/user-attachments/assets/052f2ed3-c664-4a4f-8ec2-074349dcaa3f" />
 
