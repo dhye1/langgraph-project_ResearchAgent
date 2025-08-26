@@ -43,7 +43,6 @@ Ask a question in the `messages` input field and click `Submit`.
 
 ### Configurations
 
-Open Deep Research offers extensive configuration options to customize the research process and model behavior. All configurations can be set via the web UI, environment variables, or by modifying the configuration directly.
 
 #### General Settings
 
