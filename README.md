@@ -1,11 +1,8 @@
-# Open Deep Research
+## Deep Research Agent
 
 <img width="1388" height="298" alt="full_diagram" src="https://github.com/user-attachments/assets/12a2371b-8be2-4219-9b48-90503eb43c69" />
 
-Deep research has broken out as one of the most popular agent applications. This is a simple, configurable, fully open source deep research agent that works across many model providers, search tools, and MCP servers. 
 
-* Read more in our [blog](https://blog.langchain.com/open-deep-research/) 
-* See our [video](https://www.youtube.com/watch?v=agGiWUpxkhg) for a quick overview
 
 ### 🚀 Quickstart
 
@@ -135,42 +132,3 @@ python tests/run_evaluate.py
 - `tests/evaluators.py`: Specialized evaluator functions
 - `tests/prompts.py`: Evaluation prompts for each dimension
 
-### Deployments and Usages
-
-#### LangGraph Studio
-
-Follow the [quickstart](#-quickstart) to start LangGraph server locally and test the agent out on LangGraph Studio.
-
-#### Hosted deployment
- 
-You can easily deploy to [LangGraph Platform](https://langchain-ai.github.io/langgraph/concepts/#deployment-options). 
-
-#### Open Agent Platform
-
-Open Agent Platform (OAP) is a UI from which non-technical users can build and configure their own agents. OAP is great for allowing users to configure the Deep Researcher with different MCP tools and search APIs that are best suited to their needs and the problems that they want to solve.
-
-We've deployed Open Deep Research to our public demo instance of OAP. All you need to do is add your API Keys, and you can test out the Deep Researcher for yourself! Try it out [here](https://oap.langchain.com)
-
-You can also deploy your own instance of OAP, and make your own custom agents (like Deep Researcher) available on it to your users.
-1. [Deploy Open Agent Platform](https://docs.oap.langchain.com/quickstart)
-2. [Add Deep Researcher to OAP](https://docs.oap.langchain.com/setup/agents)
-
-### Updates 🔥
-
-### Legacy Implementations 🏛️
-
-The `src/legacy/` folder contains two earlier implementations that provide alternative approaches to automated research:
-
-#### 1. Workflow Implementation (`legacy/graph.py`)
-- **Plan-and-Execute**: Structured workflow with human-in-the-loop planning
-- **Sequential Processing**: Creates sections one by one with reflection
-- **Interactive Control**: Allows feedback and approval of report plans
-- **Quality Focused**: Emphasizes accuracy through iterative refinement
-
-#### 2. Multi-Agent Implementation (`legacy/multi_agent.py`)  
-- **Supervisor-Researcher Architecture**: Coordinated multi-agent system
-- **Parallel Processing**: Multiple researchers work simultaneously
-- **Speed Optimized**: Faster report generation through concurrency
-- **MCP Support**: Extensive Model Context Protocol integration
-
-See `src/legacy/legacy.md` for detailed documentation, configuration options, and usage examples for both legacy implementations.
