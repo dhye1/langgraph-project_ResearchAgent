@@ -1,4 +1,4 @@
-# Obesity Among Young Adults in the United States: A Growing Public Health Challenge
+ # Obesity Among Young Adults in the United States: A Growing Public Health Challenge
 
 The obesity epidemic among young adults in the United States represents a complex public health crisis shaped by interconnected social, economic, and environmental factors. Recent research reveals that over one-third of US adults suffer from obesity, with rates disproportionately affecting disadvantaged communities. This health challenge extends beyond individual choices, as built environment characteristics and socioeconomic conditions explain up to 90% of obesity prevalence variation across American cities. Understanding these systemic influences is crucial for developing effective interventions that address both individual and community-level factors contributing to obesity among young adults.
 
